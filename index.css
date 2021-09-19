@@ -1,0 +1,23 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.process {
+
+    width: 500px;
+    height: 500px;
+    background-color: #fafafa;
+    animation: animacao 5s infinite;
+}
+
+@keyframes animacao {
+
+    0% {background-color: blueviolet ; width: 150px;}
+    25% {background-color: darkorchid ; width: 250px;}
+    50% {background-color: rgb(50, 5, 173) ; width: 350px;}
+    100% {background-color: rgb(204, 50, 153)  ; width: 500px;}
+}
+
